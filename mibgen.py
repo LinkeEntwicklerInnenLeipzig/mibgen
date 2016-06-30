@@ -85,7 +85,7 @@ def main():
             while len(html_rows) <= row + 1:
                 html_rows.append([])
             folder = baseurl + str(year) + '/'
-            html_rows[row].append('<td><link ' + folder + entry.pdf +' - download \"Leitet Herunterladen der Datei ein\"><img src=\"' + folder + entry.img + '\" /></link></td>')
+            html_rows[row].append('<td style=\"text-align: center\"><link ' + folder + entry.pdf +' - download \"Leitet Herunterladen der Datei ein\"><img src=\"' + folder + entry.img + '\" /></link></td>')
             html_rows[row + 1].append('<td style=\"text-align: center\">' + entry.subtitle + '</td>')
 
         for row in html_rows:
