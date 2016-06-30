@@ -5,6 +5,7 @@ Alle Mitteilungsblätter in den pdf-Ordner legen. Möglich sind folgende Dateina
 * `mib-yyyy-mm.pdf` für ein MIB eines Monats eines Jahres
 * `mib-yyyy-mm-mm.pdf` für ein MIB über zwei Monate eines Jahres
 * `mib-yyyy-mm-yyyy-mm.pdf` für ein MIB über zwei Monate zweier Jahre
+* Bzw. sollte generell folgenden regex matchen: `^mib(-\d{4}(-\d{2}))+\.pdf$`
 
 Aufrufe:
 * `python3 mibgen.py` für vollständige Generierung
@@ -19,5 +20,4 @@ eingefügt werden kann.
 
 ## Download des Archivs
 
-Das bisherige Archiv kann über das shellscript `download_archive.sh` heruntergeladen
-werden.
+Das bisherige Archiv kann mit `wget -i archive -P pdf` heruntergeladen werden.
