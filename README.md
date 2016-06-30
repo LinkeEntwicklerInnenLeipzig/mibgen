@@ -1,5 +1,9 @@
 # Codegenerator Mitteilungsblätter
 
+Benötigt `convert` (imagemagick)
+
+## Benutzung
+
 Alle Mitteilungsblätter in den pdf-Ordner legen. Möglich sind folgende Dateinamen-Formate:
 
 * `mib-yyyy-mm.pdf` für ein MIB eines Monats eines Jahres
