@@ -17,7 +17,7 @@ columns = 3
 
 def get_pdfnames(pdfpath):
     import re
-    pdf_regex = re.compile(r'^mib(-\d{4}(-\d{2}))+\.pdf$', flags=re.IGNORECASE)
+    pdf_regex = re.compile(r'^mib(-\d{4}(-\d{2})+)+\.pdf$', flags=re.IGNORECASE)
     return (path.join(pdfpath, f) for f in os.listdir(pdfpath) if pdf_regex.match(f))
 
 def get_subtitle(filename):

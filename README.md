@@ -9,7 +9,7 @@ Alle Mitteilungsblätter in den pdf-Ordner legen. Möglich sind folgende Dateina
 * `mib-yyyy-mm.pdf` für ein MIB eines Monats eines Jahres
 * `mib-yyyy-mm-mm.pdf` für ein MIB über zwei Monate eines Jahres
 * `mib-yyyy-mm-yyyy-mm.pdf` für ein MIB über zwei Monate zweier Jahre
-* Bzw. sollte generell folgenden regex matchen: `^mib(-\d{4}(-\d{2}))+\.pdf$`
+* Bzw. sollte generell folgenden regex matchen: `^mib(-\d{4}(-\d{2})+)+\.pdf$`
 
 Aufrufe:
 * `python3 mibgen.py` für vollständige Generierung
